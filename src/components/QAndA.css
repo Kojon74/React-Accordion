@@ -1,0 +1,31 @@
+.q-and-a-container {
+  width: 100%;
+  margin: 10px 0 10px;
+  padding: 0 5px 0 5px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 7px #aaa;
+}
+
+.question-expand-container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.question {
+  max-width: 80%;
+  display: inline;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: 400;
+  /* line-height: 50px; */
+}
+
+.expand {
+  height: 30px;
+  width: 30px;
+  color: darkslateblue;
+}
